@@ -184,10 +184,10 @@ end );
 
 #############################################################################
 ##
-#M  QuaternionGroupCons( <IsPcpGroup>, <n> )
+#M  DicyclicGroupCons( <IsPcpGroup>, <n> )
 ##
 
-InstallMethod( QuaternionGroupCons,
+InstallMethod( DicyclicGroupCons,
     "pcp group",
     [ IsPcpGroup and IsFinite, IsPosInt ],
 function( filter, n )
